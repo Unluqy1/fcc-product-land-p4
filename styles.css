@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Fuggles&family=Oswald:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+
+
+
+
+body{
+  background-color: #e6e8eb;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  height: 80px;
+}
+
+body{
+  padding-top: 70px;
+}
+
+#header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+top: 0;
+left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #e6e8eb;
+z-index: 1000;
+}
+#header-title{
+  font-family: Barlow Condensed;
+  font-weight: 900;
+  font-size: 30px;
+  margin-right: auto;
+  color: #5e6166;
+}
+
+
+
+
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: #5e6166;
+transition: all 0.3s ease;
+  
+}
+
+ul li a:hover{
+  text-decoration: none;
+
+color: #949eb0;
+  
+}
+
+.email{
+  outline: 0;
+}
+
+
+h4{
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+form{
+  text-align: center;
+}
+ 
+ .email{
+   width: 200px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+ }
+ .submit{
+background-color: rgba(207, 177, 109,1);
+border: none;
+font-size: 20px;
+font-weight: 800;
+letter-spacing: 1px;
+font-family: Oswald;
+margin-bottom: 2em;
+padding-left: 20px;
+padding-right: 20px;
+ }
+
+ .submit:hover{
+   background-color: rgba(163, 137, 78);
+   transition: all 0.8s ease;
+ }
+
+#video-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+
+
+
+ footer{
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+text-align: right;
+   background-color: #d9dadb;
+   padding-top: 4px;
+   color: #5e6166;
+   padding-bottom: 4px;
+   margin-bottom: -10px;
+   position: relative;
+   bottom: 0;
+ }
+
+ .copyright{
+   margin-right: 15px;
+ }
+
+
+
+
+
+
+
+.features{
+
+ width: 80%;
+margin-left: 30%;
+margin-right: 5%;
+ align-items: center;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+.features1 p{
+
+
+max-width: 80%;
+
+
+
+
+}
+.features2 p{
+
+
+max-width: 80%;
+
+
+
+
+}
+.features3 p{
+
+
+max-width: 80%;
+
+
+
+
+}
+
+.features-heading{
+  color: #3b3c40;
+  display: flex;
+  align-items: center;
+}
+
+.features p{
+  margin-top: -1em;
+  margin-bottom: 2em;
+  font-weight: 200;
+  font-family: none;
+  font-size: 19px;
+  color: #54565c;
+}
+
+
+.icons{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  translate: -80px -10px;
+}
+
+#delivery-icon{
+  width: 110px;
+}
+.features2, .features3{
+  margin-top: 3em;
+}
+
+.features3 p{
+  margin-bottom: 7em;
+}
+
+
+#pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 3em;
+}
+
+#price1, #price2, #price3{
+  margin: 0 60px;
+  border: 1px solid #1e1e1f;
+}
+
+.price-head{
+  text-align: center;
+  margin-top: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #d9dadb;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+
+}
+
+.amount{
+  text-align: center;
+  font-size: 25px;
+  font-family: Barlow;
+  opacity: 90%;
+  font-weight: 600;
+}
+
+#pricing p{
+  text-align: center;
+  color: #63696e;
+  margin-top: -7px;
+
+}
+
+#pricing p:last-of-type{
+  margin-bottom: 40px;
+}
+
+button{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px;
+  border: 0;
+  background-color: rgba(207, 177, 109,1);
+padding-left: 20px;
+padding-right: 20px;
+font-size: 20px;
+font-weight: 200;
+
+font-family: Oswald;
+
+}
+
+button:hover{
+  cursor: pointer;
+   background-color: rgba(163, 137, 78);
+   transition: all 0.8s ease;
+ }
+
+
+@media (min-width:100px) and (max-width: 900px){
+  .icons{
+    translate: -48px -15px;
+  }
+  .features-heading, #features p{
+    margin-left: 20px;
+  }
+  
+  ul li{
+    margin-top: 5px;
+  }
+  body{
+    padding-top: 90px;
+  }
+#price1, #price2{
+  margin-bottom: 20px;
+}
+#nav-bar2 a{
+  display: flex;
+}
+}
+
+@media (min-width:100px) and (max-width: 900px){
+  #pricing{
+  flex-direction: column;
+}
+
+#price1,#price2,#price3{
+  width: 50%;
+}
+}
+@media (min-width:100px) and (max-width: 400px){
+  .price-head{
+    font-size: 10px;
+  }
+
+button{
+  font-size: 15px;
+}
+
+  #header{
+   padding-left: 2em;
+   padding-right: 2em;
+  }
+
+#features p{
+  font-size: 15px;
+}
+.features-heading{
+  font-size: 18px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+
